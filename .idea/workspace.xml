@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="626436d5-59a2-4eab-91ee-842337af8cb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/exports/paperEXex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/exports/paperPOL231dirty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/users/ta.cite" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="48" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XYIuFTfYpzx9Ng8kS864SEhK4g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/ui/view" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mdema\Desktop\UBC\2019W2\CPSC 210\iCite\Project\src\main\ui\controllers" />
+      <recent name="C:\Users\mdema\Desktop\UBC\2019W2\CPSC 210\iCite\Project\src\main\ui\resources" />
+      <recent name="C:\Users\mdema\Desktop\UBC\2019W2\CPSC 210\iCite\Project\data\exports" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ui" />
+      <recent name="views" />
+      <recent name="model" />
+      <recent name="model.styles" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model.styles" />
+      <recent name="ui" />
+      <recent name="model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdema\Desktop\UBC\2019W2\CPSC 210\iCite\Project\src\main\ui\view" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="iCite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.cli.RunCLI" />
+      <module name="iCite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in iCite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iCite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in iCite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iCite" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="ui.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MLATest.testGetWebsite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iCite" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="ui.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.MLATest" />
+      <option name="METHOD_NAME" value="testGetWebsite" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.RunCLI" />
+      <item itemvalue="JUnit.MLATest.testGetWebsite" />
+      <item itemvalue="JUnit.All in iCite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in iCite" />
+        <item itemvalue="JUnit.All in iCite" />
+        <item itemvalue="Application.RunCLI" />
+        <item itemvalue="JUnit.MLATest.testGetWebsite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="626436d5-59a2-4eab-91ee-842337af8cb8" name="Default Changelist" comment="" />
+      <created>1581216822345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581216822345</updated>
+      <workItem from="1582430479233" duration="9079000" />
+      <workItem from="1582572151179" duration="16000" />
+      <workItem from="1582916824402" duration="3794000" />
+      <workItem from="1583778327577" duration="2097000" />
+      <workItem from="1583880464870" duration="36000" />
+      <workItem from="1583895285880" duration="1334000" />
+      <workItem from="1583950061531" duration="4874000" />
+      <workItem from="1583958008409" duration="1522000" />
+      <workItem from="1584077954316" duration="16000" />
+      <workItem from="1584126157222" duration="19072000" />
+      <workItem from="1584224521198" duration="8752000" />
+      <workItem from="1584404199817" duration="236000" />
+      <workItem from="1584410924586" duration="3177000" />
+      <workItem from="1584503900361" duration="68000" />
+      <workItem from="1584504130197" duration="5840000" />
+      <workItem from="1584576771927" duration="46000" />
+      <workItem from="1584889250755" duration="19124000" />
+      <workItem from="1584908870454" duration="1918000" />
+      <workItem from="1584997432175" duration="612000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated README.md from default; added basic information about iCite, a citation desktop app">
+      <created>1581218172598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581218172598</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updating the README.md to reflect some potential user stories and fixing typos">
+      <created>1581218610059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581218610059</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created functionality for (a) creating assignment (b) loading assignment (c) adding citation (d) exporting citation (e) quitting, wrote tests for all classes, and added basic CLI app navigation&#10;&#10;Removed the doggo">
+      <created>1581407597784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581407597784</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed code coverage and created empty test files for testing UI in future if needed">
+      <created>1581482189609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581482189609</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated implementation of code to generate citation file for paper, fixed tests to match">
+      <created>1581484172802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581484172802</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Made Prof. Carter's suggestion to get 100% coverage">
+      <created>1581488493053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581488493053</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Readding tobs.jpg and updating tests to match">
+      <created>1581534818569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581534818569</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Persistence functionality added; user may save and load their account.">
+      <created>1582156815667</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582156815667</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Phase 2 user stories completed, without coverage or tests">
+      <created>1582163205112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582163205112</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tests for persistence package completed to 100% coverage">
+      <created>1582437982543</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582437982544</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Shortening... my methods... arbitrarily. Hopefully this won't be an issue when it's no longer a command line interface.">
+      <created>1582438642982</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582438642982</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Testing the constructor for static helper classes in persistence">
+      <created>1582438922875</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582438922875</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completing the phase 3 requirements for the GUI">
+      <created>1584908775930</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584908775930</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixing a check style issue">
+      <created>1584909050156</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584909050156</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Moving CLI package">
+      <created>1584909430088</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584909430088</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adding documentation">
+      <created>1584910224061</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584910224061</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Moving exceptions package">
+      <created>1584910525403</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584910525403</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated README.md from default; added basic information about iCite, a citation desktop app" />
+    <MESSAGE value="Updating the README.md to reflect some potential user stories and fixing typos" />
+    <MESSAGE value="Created functionality for (a) creating assignment (b) loading assignment (c) adding citation (d) exporting citation (e) quitting, wrote tests for all classes, and added basic CLI app navigation&#10;&#10;Removed the doggo" />
+    <MESSAGE value="Fixed code coverage and created empty test files for testing UI in future if needed" />
+    <MESSAGE value="Updated implementation of code to generate citation file for paper, fixed tests to match" />
+    <MESSAGE value="Made Prof. Carter's suggestion to get 100% coverage" />
+    <MESSAGE value="Readding tobs.jpg and updating tests to match" />
+    <MESSAGE value="Persistence functionality added; user may save and load their account." />
+    <MESSAGE value="Phase 2 user stories completed, without coverage or tests" />
+    <MESSAGE value="Tests for persistence package completed to 100% coverage" />
+    <MESSAGE value="Shortening... my methods... arbitrarily. Hopefully this won't be an issue when it's no longer a command line interface." />
+    <MESSAGE value="Testing the constructor for static helper classes in persistence" />
+    <MESSAGE value="Completing the phase 3 requirements for the GUI" />
+    <MESSAGE value="Fixing a check style issue" />
+    <MESSAGE value="Moving CLI package" />
+    <MESSAGE value="Adding documentation" />
+    <MESSAGE value="Moving exceptions package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving exceptions package" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1368" y="1092" key="#Editor_|_Color_Scheme_|_General" timestamp="1582433853148">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state x="-1368" y="1092" key="#Editor_|_Color_Scheme_|_General/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582433853148" />
+    <state x="206" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583780815671">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-1656" y="1060" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582433443646" />
+    <state x="206" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.919@0.0.1500.919" timestamp="1583780815671" />
+    <state x="-1818" y="1487" width="1681" height="481" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582437561591">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state x="-1818" y="1487" width="1681" height="481" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582437561591" />
+    <state x="93" y="93" width="1313" height="732" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1500.919@0.0.1500.919" timestamp="1581361717551" />
+    <state x="478" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582927610858">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="478" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.919@0.0.1500.919" timestamp="1582927610858" />
+    <state x="556" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1584127178948">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-1208" y="1120" key="#com.intellij.ide.util.MemberChooser/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582431779220" />
+    <state x="556" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1500.919@0.0.1500.919" timestamp="1584127178948" />
+    <state x="-1380" y="1181" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582431947427">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state x="-1380" y="1181" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582431947427" />
+    <state x="832" y="220" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583780811621">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-855" y="1174" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582431930649" />
+    <state x="832" y="220" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1500.919@0.0.1500.919" timestamp="1583780811621" />
+    <state x="-1280" y="1170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584503936069">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state x="-1280" y="1170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584503936069" />
+    <state x="759" y="388" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584910421007">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-936" y="1357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584153203355" />
+    <state x="759" y="388" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1500.919@0.0.1500.919" timestamp="1584910421007" />
+    <state x="-1164" y="1293" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582435512289">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state x="-1164" y="1293" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582435512289" />
+    <state x="920" y="343" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584910423641">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="920" y="343" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1500.919@0.0.1500.919" timestamp="1584910423641" />
+    <state x="49" y="67" key="CommitChangelistDialog2" timestamp="1584910524058">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-1920" y="1007" key="CommitChangelistDialog2/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582438921423" />
+    <state x="49" y="67" key="CommitChangelistDialog2/0.0.1500.919@0.0.1500.919" timestamp="1584910524058" />
+    <state x="531" y="215" key="FileChooserDialogImpl" timestamp="1584892640302">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-1240" y="1169" key="FileChooserDialogImpl/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582155706623" />
+    <state x="531" y="215" key="FileChooserDialogImpl/0.0.1500.919@0.0.1500.919" timestamp="1584892640302" />
+    <state width="1458" height="206" key="GridCell.Tab.0.bottom" timestamp="1585004595534">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state width="1877" height="122" key="GridCell.Tab.0.bottom/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584553149691" />
+    <state width="916" height="201" key="GridCell.Tab.0.bottom/0.0.1500.919/-1920.935.1920.999@0.0.1500.919" timestamp="1584478367012" />
+    <state width="1458" height="206" key="GridCell.Tab.0.bottom/0.0.1500.919@0.0.1500.919" timestamp="1585004595534" />
+    <state width="1458" height="206" key="GridCell.Tab.0.center" timestamp="1585004595533">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state width="1877" height="122" key="GridCell.Tab.0.center/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584553149691" />
+    <state width="916" height="201" key="GridCell.Tab.0.center/0.0.1500.919/-1920.935.1920.999@0.0.1500.919" timestamp="1584478367012" />
+    <state width="1458" height="206" key="GridCell.Tab.0.center/0.0.1500.919@0.0.1500.919" timestamp="1585004595533" />
+    <state width="1458" height="206" key="GridCell.Tab.0.left" timestamp="1585004595532">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state width="1877" height="122" key="GridCell.Tab.0.left/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584553149691" />
+    <state width="916" height="201" key="GridCell.Tab.0.left/0.0.1500.919/-1920.935.1920.999@0.0.1500.919" timestamp="1584478367011" />
+    <state width="1458" height="206" key="GridCell.Tab.0.left/0.0.1500.919@0.0.1500.919" timestamp="1585004595532" />
+    <state width="1458" height="206" key="GridCell.Tab.0.right" timestamp="1585004595533">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state width="1877" height="122" key="GridCell.Tab.0.right/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584553149691" />
+    <state width="916" height="201" key="GridCell.Tab.0.right/0.0.1500.919/-1920.935.1920.999@0.0.1500.919" timestamp="1584478367012" />
+    <state width="1458" height="206" key="GridCell.Tab.0.right/0.0.1500.919@0.0.1500.919" timestamp="1585004595533" />
+    <state width="1877" height="331" key="GridCell.Tab.1.bottom" timestamp="1582439896557">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state width="1877" height="331" key="GridCell.Tab.1.bottom/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582439896557" />
+    <state width="1458" height="290" key="GridCell.Tab.1.bottom/0.0.1500.919@0.0.1500.919" timestamp="1581535132806" />
+    <state width="1877" height="331" key="GridCell.Tab.1.center" timestamp="1582439896557">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state width="1877" height="331" key="GridCell.Tab.1.center/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582439896557" />
+    <state width="1458" height="290" key="GridCell.Tab.1.center/0.0.1500.919@0.0.1500.919" timestamp="1581535132805" />
+    <state width="1877" height="331" key="GridCell.Tab.1.left" timestamp="1582439896557">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state width="1877" height="331" key="GridCell.Tab.1.left/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582439896557" />
+    <state width="1458" height="290" key="GridCell.Tab.1.left/0.0.1500.919@0.0.1500.919" timestamp="1581535132805" />
+    <state width="1877" height="331" key="GridCell.Tab.1.right" timestamp="1582439896557">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state width="1877" height="331" key="GridCell.Tab.1.right/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582439896557" />
+    <state width="1458" height="290" key="GridCell.Tab.1.right/0.0.1500.919@0.0.1500.919" timestamp="1581535132806" />
+    <state x="265" y="111" width="994" height="713" key="SettingsEditor" timestamp="1584903792255">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-1581" y="1056" key="SettingsEditor/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584148389707" />
+    <state x="265" y="111" width="994" height="713" key="SettingsEditor/0.0.1500.919@0.0.1500.919" timestamp="1584903792255" />
+    <state width="600" height="424" key="ShowTestsPopup" timestamp="1582436325892">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state width="600" height="424" key="ShowTestsPopup/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582436325892" />
+    <state x="343" y="193" key="Vcs.Push.Dialog.v2" timestamp="1584910526764">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-1481" y="1145" key="Vcs.Push.Dialog.v2/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582438924126" />
+    <state x="343" y="193" key="Vcs.Push.Dialog.v2/0.0.1500.919@0.0.1500.919" timestamp="1584910526764" />
+    <state x="446" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1582572160652">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-1349" y="1245" key="com.intellij.ide.util.TipDialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1582069338451" />
+    <state x="446" y="285" key="com.intellij.ide.util.TipDialog/0.0.1500.919/-1920.935.1920.999@0.0.1500.919" timestamp="1582430479437" />
+    <state x="446" y="285" key="com.intellij.ide.util.TipDialog/0.0.1500.919@0.0.1500.919" timestamp="1582572160652" />
+    <state x="-1151" y="1351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584232424082">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state x="-1151" y="1351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584232424082" />
+    <state x="-1230" y="1189" key="extract.method.dialog" timestamp="1584509190343">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state x="-1230" y="1189" key="extract.method.dialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584509190343" />
+    <state x="422" y="90" key="new project wizard" timestamp="1583779631351">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="422" y="90" key="new project wizard/0.0.1500.919@0.0.1500.919" timestamp="1583779631351" />
+    <state x="-1734" y="1056" key="refactoring.ChangeSignatureDialog" timestamp="1584505940419">
+      <screen x="-1920" y="935" width="1920" height="999" />
+    </state>
+    <state x="-1734" y="1056" key="refactoring.ChangeSignatureDialog/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584505940419" />
+    <state x="417" y="200" width="672" height="678" key="search.everywhere.popup" timestamp="1584906779582">
+      <screen x="0" y="0" width="1500" height="919" />
+    </state>
+    <state x="-1391" y="1148" width="861" height="738" key="search.everywhere.popup/0.0.1500.919/-1920.935.1920.999@-1920.935.1920.999" timestamp="1584505498701" />
+    <state x="417" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1500.919@0.0.1500.919" timestamp="1584906779582" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/persistence/LoadTest.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_Starter$persistence_in_Project_Starter.ic" NAME="persistence in Project-Starter Coverage Results" MODIFIED="1582433404113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>persistence.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$Main.ic" NAME="Main Coverage Results" MODIFIED="1582160368213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ui.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$SaveTest.ic" NAME="SaveTest Coverage Results" MODIFIED="1582432938673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>persistence.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$All_in_Project_Starter.ic" NAME="All in Project-Starter Coverage Results" MODIFIED="1584903126207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>persistence.*</FILTER>
+      <FILTER>model.*</FILTER>
+      <FILTER>cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>

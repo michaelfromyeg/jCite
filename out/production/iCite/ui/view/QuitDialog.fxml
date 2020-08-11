@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="225.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.controllers.QuitDialogController">
+   <children>
+      <Button fx:id="btnCancel" layoutX="25.0" layoutY="179.0" mnemonicParsing="false" onAction="#onCancel" text="Cancel" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="25.0" />
+      <Button fx:id="btnQuit" layoutX="109.0" layoutY="179.0" mnemonicParsing="false" onAction="#onQuit" text="Quit" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="25.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center;" text="Are you sure you &#10;want to quit?" textAlignment="CENTER" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="lblLastSaved" layoutX="72.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Saved" AnchorPane.leftAnchor="72.0" AnchorPane.rightAnchor="72.0" />
+      <Button fx:id="btnSave" layoutX="87.0" layoutY="180.0" mnemonicParsing="false" onAction="#onSaveClicked" text="Save" />
+   </children>
+</AnchorPane>

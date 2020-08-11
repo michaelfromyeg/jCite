@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fff;" stylesheets="@../css/homepage.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.controllers.HomeController">
+    <children>
+      <Pane prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: #73A3EF;">
+         <children>
+            <Text fill="WHITE" layoutX="100.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="iCite">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="100.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnBack" layoutX="534.0" layoutY="64.0" mnemonicParsing="false" onAction="#back" text="Back" />
+            <Text fx:id="path" fill="WHITE" layoutX="350.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Path: " textAlignment="RIGHT" />
+         </children></Pane>
+    </children>
+</AnchorPane>
