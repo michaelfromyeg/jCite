@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="626436d5-59a2-4eab-91ee-842337af8cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/users/michaelfromyeg2.cite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/exports/paperWORLDhello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/users/michaelfromyeg3.cite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/exports/paperCPSC110oop.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/exports/paperCPSC110oop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/exports/paperCPSC210javah.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/exports/paperCPSC210javah.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/exports/paperEXex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/exports/paperPOL231dirty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iCite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/iCite.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.school/CPSC 213/Materials/sm-student-213-intellij/SM213" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,6 +75,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -110,7 +107,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
       <module name="iCite" />
-      <option name="VM_PARAMETERS" value="--module-path=&quot;C:\Users\mdema\.javafx\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml --class-path ." />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ui.cli.*" />
@@ -130,6 +126,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,6 +175,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CitationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iCite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.CitationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MLATest.testGetWebsite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="iCite" />
       <useClassPathOnly />
@@ -199,14 +221,15 @@
       <item itemvalue="Application.RunCLI" />
       <item itemvalue="JUnit.MLATest.testGetWebsite" />
       <item itemvalue="JUnit.All in iCite" />
+      <item itemvalue="JUnit.CitationTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in iCite" />
+        <item itemvalue="JUnit.CitationTest" />
         <item itemvalue="Application.RunCLI" />
         <item itemvalue="JUnit.All in iCite" />
-        <item itemvalue="JUnit.MLATest.testGetWebsite" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +268,7 @@
       <workItem from="1600324506956" duration="23000" />
       <workItem from="1600324777035" duration="208000" />
       <workItem from="1600325116900" duration="670000" />
+      <workItem from="1622834947616" duration="1735000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md from default; added basic information about iCite, a citation desktop app">
       <created>1581218172598</created>
@@ -404,54 +428,6 @@
     <MESSAGE value="Moving exceptions package" />
     <option name="LAST_COMMIT_MESSAGE" value="Moving exceptions package" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="292" y="156" key="#Project_Structure" timestamp="1597177383240">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state x="292" y="156" key="#Project_Structure/0.81.1620.999@0.81.1620.999" timestamp="1597177383240" />
-    <state x="266" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598203215060">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state x="266" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.81.1620.999@0.81.1620.999" timestamp="1598203215060" />
-    <state x="592" y="287" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598203081402">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state x="592" y="287" key="#com.intellij.ide.macro.MacrosDialog/0.81.1620.999@0.81.1620.999" timestamp="1598203081402" />
-    <state x="474" y="333" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600324974372">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state x="474" y="333" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.81.1620.999/3240.1058.1920.999@0.81.1620.999" timestamp="1600324974372" />
-    <state x="592" y="322" key="FileChooserDialogImpl" timestamp="1600325792145">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state x="592" y="322" key="FileChooserDialogImpl/0.81.1620.999/3240.1058.1920.999@0.81.1620.999" timestamp="1600325792145" />
-    <state x="592" y="322" key="FileChooserDialogImpl/0.81.1620.999@0.81.1620.999" timestamp="1597177732854" />
-    <state width="1578" height="253" key="GridCell.Tab.0.bottom" timestamp="1598203199032">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state width="1578" height="253" key="GridCell.Tab.0.bottom/0.81.1620.999@0.81.1620.999" timestamp="1598203199032" />
-    <state width="1578" height="253" key="GridCell.Tab.0.center" timestamp="1598203199032">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state width="1578" height="253" key="GridCell.Tab.0.center/0.81.1620.999@0.81.1620.999" timestamp="1598203199032" />
-    <state width="1578" height="253" key="GridCell.Tab.0.left" timestamp="1598203199032">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state width="1578" height="253" key="GridCell.Tab.0.left/0.81.1620.999@0.81.1620.999" timestamp="1598203199032" />
-    <state width="1578" height="253" key="GridCell.Tab.0.right" timestamp="1598203199032">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state width="1578" height="253" key="GridCell.Tab.0.right/0.81.1620.999@0.81.1620.999" timestamp="1598203199032" />
-    <state x="527" y="114" key="SettingsEditor" timestamp="1600325760361">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state x="527" y="114" key="SettingsEditor/0.81.1620.999/3240.1058.1920.999@0.81.1620.999" timestamp="1600325760361" />
-    <state x="313" y="226" key="SettingsEditor/0.81.1620.999@0.81.1620.999" timestamp="1597177739074" />
-    <state x="516" y="489" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597177993195">
-      <screen x="0" y="81" width="1620" height="999" />
-    </state>
-    <state x="516" y="489" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.81.1620.999@0.81.1620.999" timestamp="1597177993195" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -464,25 +440,25 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jCite$RunCLI.ic" NAME="RunCLI Coverage Results" MODIFIED="1597178062157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ui.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$persistence_in_Project_Starter.ic" NAME="persistence in Project-Starter Coverage Results" MODIFIED="1582433404113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>persistence.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Project_Starter$All_in_Project_Starter.ic" NAME="All in Project-Starter Coverage Results" MODIFIED="1584903126207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>persistence.*</FILTER>
       <FILTER>model.*</FILTER>
       <FILTER>cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/jCite$All_in_iCite.ic" NAME="All in iCite Coverage Results" MODIFIED="1597178015863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Project_Starter$SaveTest.ic" NAME="SaveTest Coverage Results" MODIFIED="1582432938673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>persistence.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/jCite$RunCLI.ic" NAME="RunCLI Coverage Results" MODIFIED="1597178062157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ui.cli.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Project_Starter$Main.ic" NAME="Main Coverage Results" MODIFIED="1582160368213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ui.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/jCite$Main.ic" NAME="Main Coverage Results" MODIFIED="1597178039527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ui.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Project_Starter$persistence_in_Project_Starter.ic" NAME="persistence in Project-Starter Coverage Results" MODIFIED="1582433404113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/jCite$All_in_iCite.ic" NAME="All in iCite Coverage Results" MODIFIED="1597178015863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Project_Starter$Main.ic" NAME="Main Coverage Results" MODIFIED="1582160368213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ui.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$SaveTest.ic" NAME="SaveTest Coverage Results" MODIFIED="1582432938673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>persistence.*</FILTER>
     </SUITE>
   </component>

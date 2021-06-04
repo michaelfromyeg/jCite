@@ -1,89 +1,53 @@
-# iCite: A desktop application to assist with organization citations for papers and large assignments
+# jCite: manage research papers and generate citations
 
-## What will iCite do?
+jCite is for students, academics, and researchers of all ages looking to manage a knowledge graph (or "brain dump") of journal articles, podcasts, videos, and other resource material used in creating their work.
 
-iCite's objective is two-fold. First, it will aim to outperform existing online options that generate citations, such as [Cite This For Me](https://www.citethisforme.com/) or [EasyBib](https://www.easybib.com/). From both talking to my peers studying humanities, and from my personal experience in high school, these resources often made many errors and were generally frustrating to use (e.g., many pop-up ads, strange unwanted features, and more).
+This project is written using Java, JavaFX, and CSS. Tests are written using JUnit 5.
 
-Secondly, iCite, beyond the aforementioned existing apps, will aim to help you *organize* those same citations. It will have some sort of mind map functionality to help you create a brief description of arugments in your essay, and then link your already created citations to those paragraphs, so that when you go to write the final piece your citations are already organized and in-front of you.
+## Features
 
-> Organizing is what you do before you do something, so that when you do it, it is not all mixed up.
-> —A. A. Milne
+- [x] Create and manage a list of papers you're working on
+- [x] Add a list of sources associated with each paper
+- [x] Generate citations in common formats (e.g., MLA or APA) for your sources
+- [x] Preview a generated bibliography
+- [x] Save your work
 
-## Who will use it?
+These features are currently planned or in development:
 
-I could see a few primary user groups for this app.
+- [ ] Create a "real" account to manage your data
+- [ ] Setup file sync between computers
+- [ ] Create user settings (e.g., a default citation style
+- [ ] Drastically improve user experience: new UI, better display of journal articles
+- [ ] Link a citation to an argument I am making in my paper (i.e., one or more paragraphs)
+- [ ] Visualize the relationship between citations and arguments in a mind map form
+- [ ] Support for more kinds of sources (e.g., videos, podcasts)
+- [ ] Notify users if there is a potential error in creating the bibliography
 
-- A student who is already effective at writing papers, but looking for something to generate citations for them (to reduce errors)
-- A student who struggles with organizing their citations in writing term papers
-- Graduate students, authors, and researchers who write very long papers and thus have difficulty with managing their citations and argument form
+## Motivation
 
-## Why is this project of interest to you?
+iCite's objective is two-fold. First, it will aim to outperform existing citation generators, such as [Cite This For Me](https://www.citethisforme.com/) or [EasyBib](https://www.easybib.com/). From both talking to my peers studying humanities, and from my personal experience in high school, these resources often made many errors and were generally frustrating to use (e.g., many pop-up ads, strange unwanted features).
 
-Well, in deciding what I wanted to create for CPSC 210, I wanted to create something both challenging and personally rewarding. Building a to-do list or weather app would have to be an Android application to be of any real use to me, so I brainstormed something that would really only be useful on a desktop. Additionally, in writing a 4,000 word research paper required to receive my high school diploma, I surprisingly found citation management to pose much more of a challenge that reaching the word count.
+Secondly, iCite aims to help you better _organize_ those same citations. It will aim to help you link past scholarly work to your arguments.
 
-## How is it built
+If you're interested in a fully-fledged product, I highly recommend you look at [Zotero](https://www.zotero.org/); it has a lot of the same objectives as this project and is supported by a vast open source community. This project is more-so for my learning, and to experiment with Java.
 
-This app will be built using Java in IntelliJ, and I expect I will need to use the Swing library for the GUI.
+## Development
 
-## User Stories
+Contributors are always welcome. Here are the steps you'll need to take to run this project locally.
 
-As I user...
+1. Clone the project.
+    
+    ```shell
+    gh repo clone michaelfromyeg/jCite
+    # OR 
+    git clone git@github.com:michaelfromyeg/jCite.git
+    ```   
 
-### First four (Phase 1)
+2. Open the project in your editor of choice. [IntelliJ IDEA](https://www.jetbrains.com/idea/) is highly preferred; the `.idea` folder has been included in version control to support this.
+3. Install the necessary dependencies.
+    
+    * [Amazon Corretto 8](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html) is a great choice for your version of Java, but any Java 8 version will do
+    * You'll need to install JUnit 5 as well
 
-- I want to be able to create a new assignment for a specific class
-- I want to be able to add a citation to a paper I am currently working on
-- I want to be able to output my citation list to a file I can 'use' (in this case, it will be an HTML export which can copy-paste into Word, since writing a Word document directly would be unncessarily difficult!)
-- I want to be able to specify which citation style this paper needs to use
-
-### Data persistence (Phase 2)
-- I want to be able to save my citations as a part of my user account to my machine
-- I want to be able to load my past citations via inputting my username
-- I want to be able to delete a user account
-- I want to be able to update my account after loading it, and overwrite my past save automatically
-- I want to be notified if I have saved my file before I quit
-
-### GUI (Phase 3)
-- I want to be able to add a paper to myself as a user, and add a citation to a given paper
-- I want to be able to see my citation in an HTML window
-- I want to still be able to save and load my account
-- I want to see the product's logo in the main screen (look-and-feel)
-
-
-### And for the future...
-
-- I want to be able to link a citation to an argument I am making in my paper (i.e., one or more paragraphs)
-- I want to be able to visualize the relationship between the citations and my arguments in a mind map form
-- I want a comfortable look and feel to the application
-- I want to be able to specify the type of citation (e.g., a YouTube video versus a book versus a recorded interview) and input different information based on the type
-- I want to be confident the software has specified my citation according to modern styles, or be notified if the software is unsure
-- and more to come...
-
-## Instructions for Grader
-
-### GUI (Phase 3) Guide
-
-- First, note that this project is not completely robust, so please do follow the instructions carefully. Additionally, currently only MLA citations are supported, as creating the many iterations of forms needed for varying types of citations is beyond the scope of this phase (and is not needed for the GUI to be functional). However, expect it to appear in phase 4!
-- To use the JavaFX HTML Editor with the JDK our class uses, I had to manually add a DLL file. The steps you'll need to take are:
-
-1. Download the latest version of JavaFX from Gluon [here](https://gluonhq.com/products/javafx/)
-2. Extract the folder on your computer 
-3. Find the jfxmedia.dll file
-4. Copy and paste the file into the /bin folder of your Amazon Corette JDK folder.
-
-- If you feel uncomfortable doing as the TA, I am more than happy to provide a video demo. The HTMLEditor is a key feature of my app's functionality, though actually you can see the audiovisual component, add X to Y, and save and load all without it, so it's not completely necessary.
-
-Now for the actual project!
-
-- Run the 'Main' file contained in the UI package.
-- Hit the sign up link at the bottom and create an account with some username. Note that password and 'remember me' functionality weren't implemented in this build.
-- You can locate my visual component by...: Note the logo in the header at the top of the screen. That was my AV component (a logo image).
-- You can generate the first required event by...: Click 'Manage Assignments' and hit 'New' at the bottom to create an assignment. This is adding 'X' (assignments) to 'Y' yourself, the user.
-- You can also add 'X' citations to 'Y' the assignment. Select the assignment in the table, and then hit add citation. Note only MLA is supported at this time. Creating an assignment with a button is my first event for add 'X' to 'Y'. Select the assignment in the table and you can see the citation list on the screen.
-- You can generate the second required event by...: After creating a paper, you may also edit its title and course. Select the paper in the table and hit the edit button. Selecting the assignment is my second event for add 'X' to 'Y'.
-- Hit generate citations once you've tried making a few citations. Then go back and navigate to 'View Exports'.
-- Select your exported HTML file and view it by hitting preview. Note the program will crash if you did not add the DLL file required for HTMLViewer.
-- You can save the state of my application by...: To save your account, you may sign out (this auto saves) on the main screen. You may also hit the close window button ('X' in the top right corner) and see an option to manually save. It also notifies ths user of when they last saved before quitting.
-- You can reload the state of my application by...: To load your account, type your username into the login page.
-
-Though there is more the application does, this is all needed for Phase 3. Thanks for taking the time to mark my project!
+4. Run `Main.java`, and mess around with the application!
+5. If you encounter any issues, feel free to [open an issue](https://github.com/michaelfromyeg/jCite/issues).
